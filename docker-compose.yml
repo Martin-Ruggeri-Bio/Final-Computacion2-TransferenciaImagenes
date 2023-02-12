@@ -1,0 +1,45 @@
+#El archivo docker-compose.yml define tres servicios:
+  #redis, mongodb y server. 
+#El servicio redis utiliza la imagen de Redis en su versión alpine,
+  #el servicio mongodb utiliza la imagen de Mongo en su versión 4.2 con un usuario y contraseña específico
+  #y el servicio server se construye a partir del Dockerfile y depende de los servicios redis y mongodb.
+#El archivo también expone el puerto 5000.
+
+version: '3'
+services:
+  redis:
+    image: "redis:alpine"
+    container_name: rd-backend
+    ports:
+      - "6380:6380"
+  # celery_worker:
+  #   build: .
+  #   command: celery -A pruebaCelery worker --loglevel=info
+  #   volumes:
+  #     - .:/app
+  #   depends_on:
+  #     - redis
+  mongodb:
+    image: "mongo:4.2"
+    container_name: db-mongo-backend
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes:
+      - mongodb-banco-imagenes:/var/lib/mongodb
+    ports:
+      - "27017:27017"
+  
+  # servidor:
+  #   build: .
+  #   container_name: servidor-backend
+  #   ports:
+  #     - "5000:5000"
+  #   depends_on:
+  #     - redis
+  #     - mongodb
+  #   volumes:
+  #     - ~/Facultad/Final-Computacion2-TransferenciaImagenes:/app
+
+volumes:
+  mongodb-banco-imagenes:

@@ -1,0 +1,5 @@
+argparse
+pymongo
+celery
+redis
+Pillow
