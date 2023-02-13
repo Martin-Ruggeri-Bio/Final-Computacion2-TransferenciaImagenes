@@ -4,7 +4,7 @@
 
 Este servidor es una aplicación que permite guardar y procesar imágenes recibidas de clientes en una base de datos MongoDB.
 
-### Funcionamiento General del Servidor4 y el servidor7
+### Funcionamiento General del servidor4, el servidor7 y servidor9
 
 El servidor es capaz de recibir una solicitud de un cliente que incluya el nombre de una carpeta y una lista de nombres de imágenes. Luego, el servidor recibirá las imágenes correspondientes a esos nombres.
 
@@ -28,6 +28,9 @@ El código se trata de un servidor de procesamiento de imágenes, donde se utili
 
 El objetivo de la función "recibir_datos" es recibir datos desde un cliente, procesarlos y enviar una respuesta al cliente. Para lograr esto, la función crea tareas usando la función "asyncio.create_task", la cual crea una tarea que se ejecutará de forma asíncrona. Luego, se utiliza "asyncio.gather" para esperar a que la tarea termine y obtener su resultado.
 
+#### El servidor9
+Utiliza un sistema de logs y file descriptor para diferenciar la conxion de cada cliente
+
 
 ### Tecnologías utilizadas en ambos servidores
 
@@ -41,13 +44,20 @@ se utiliza para conectarse y manipular la base de datos MongoDB.
 se utiliza para procesar las imágenes.
 #### base64:
 se utiliza para codificar las imágenes en formato base64.
+#### BytesIO: 
+Este objeto es parte del módulo io y se utiliza para trabajar con datos binarios como si fueran un archivo en disco.
 #### pickle:
 se utiliza para serializar y deserializar los datos enviados entre el servidor y los clientes.
 #### argparse:
 se utiliza para parsear argumentos en la línea de comandos.
 #### threading:
 se utiliza para crear hilos y manejar múltiples conexiones simultáneamente.
-
+#### numpy:
+Este módulo es una biblioteca de cálculo numérico de alto rendimiento para Python.
+#### uuid: 
+Este módulo proporciona funciones para generar identificadores únicos en el sistema.
+#### logging:
+Este módulo permite registrar mensajes de información o de error en un archivo o en la consola, y permite configurar diferentes niveles de log (por ejemplo, solo registrar errores o registrar tanto errores como información).
 ### Uso
 
 Para utilizar el servidor, es necesario tener MongoDB instalado y en ejecución en la dirección y puerto especificados en la conexión (mongodb://root:root@localhost:27017/).

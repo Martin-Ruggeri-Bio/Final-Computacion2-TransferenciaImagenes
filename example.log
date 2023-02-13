@@ -1,0 +1,192 @@
+INFO:root:Servidor iniciado en IP 0.0.0.0, puerto 1234
+INFO:root:Conexión desde ('127.0.0.1', 32976)
+INFO:root:binario de imagen: rostro_random.jpg recibida
+INFO:root:coleccion foto_prueba/ ya existe
+INFO:root:rostro_random.jpg
+INFO:root:imagen rostro_random.jpg ya existe
+INFO:root:fin
+INFO:root:Programa interrumpido por el usuario
+13-Feb-23 18:52:49 - INFO - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 18:52:51 - INFO - Conexión desde ('127.0.0.1', 40046)
+13-Feb-23 18:52:51 - INFO - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 18:52:51 - INFO - coleccion foto_prueba/ ya existe
+13-Feb-23 18:52:51 - INFO - rostro_random.jpg
+13-Feb-23 18:52:51 - INFO - imagen rostro_random.jpg ya existe
+13-Feb-23 18:52:51 - INFO - fin
+13-Feb-23 18:52:59 - INFO - Programa interrumpido por el usuario
+13-Feb-23 18:55:28 - INFO - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 18:55:31 - INFO - Conexión desde ('127.0.0.1', 58202)
+13-Feb-23 18:55:31 - INFO - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 18:55:31 - INFO - coleccion foto_prueba/ ya existe
+13-Feb-23 18:55:31 - INFO - rostro_random.jpg
+13-Feb-23 18:55:31 - INFO - imagen rostro_random.jpg ya existe
+13-Feb-23 18:55:31 - INFO - fin
+13-Feb-23 18:56:11 - INFO - Programa interrumpido por el usuario
+13-Feb-23 19:16:22 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:16:25 - INFO - 5 - Conexión desde ('127.0.0.1', 57166)
+13-Feb-23 19:16:25 - ERROR - 5 - Error durante la comunicación con el cliente: recibir_datos() missing 1 required positional argument: 'fd'
+13-Feb-23 19:16:42 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:16:45 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:16:47 - INFO - 5 - Conexión desde ('127.0.0.1', 48062)
+13-Feb-23 19:16:47 - ERROR - 5 - Error al recibir nombre_carpeta y lista nombres imagenes: ajuste_formato() missing 1 required positional argument: 'fd'
+13-Feb-23 19:16:47 - INFO - 5 - fin
+13-Feb-23 19:17:16 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:17:18 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:17:24 - INFO - 5 - Conexión desde ('127.0.0.1', 54700)
+13-Feb-23 19:17:24 - ERROR - 5 - Error al recibir nombre_carpeta y lista nombres imagenes: ajuste_formato() missing 1 required positional argument: 'fd'
+13-Feb-23 19:17:24 - INFO - 5 - coleccion foto_prueba/ ya existe
+13-Feb-23 19:17:24 - INFO - 5 - fin
+13-Feb-23 19:19:44 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:19:46 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:19:48 - INFO - 5 - Conexión desde ('127.0.0.1', 46290)
+13-Feb-23 19:19:48 - ERROR - 5 - Error al recibir nombre_carpeta y lista nombres imagenes: ajuste_formato() missing 1 required positional argument: 'fd'
+13-Feb-23 19:19:48 - INFO - 5 - coleccion foto_prueba/ ya existe
+13-Feb-23 19:19:48 - INFO - 5 - fin
+13-Feb-23 19:22:12 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:22:14 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:22:16 - INFO - 5 - Conexión desde ('127.0.0.1', 60694)
+13-Feb-23 19:22:16 - ERROR - 5 - Error al recibir nombre_carpeta y lista nombres imagenes: ajuste_formato() missing 1 required positional argument: 'fd'
+13-Feb-23 19:22:16 - INFO - 5 - coleccion foto_prueba/ ya existe
+13-Feb-23 19:22:16 - INFO - 5 - fin
+13-Feb-23 19:22:19 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:23:18 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:23:21 - INFO - 5 - Conexión desde ('127.0.0.1', 41354)
+13-Feb-23 19:23:21 - ERROR - 5 - Error al recibir nombre_carpeta y lista nombres imagenes: ajuste_formato() missing 1 required positional argument: 'fd'
+13-Feb-23 19:23:21 - INFO - 5 - coleccion foto_prueba/ ya existe
+13-Feb-23 19:23:21 - INFO - 5 - fin
+13-Feb-23 19:23:39 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:23:42 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:23:45 - INFO - 5 - Conexión desde ('127.0.0.1', 51588)
+13-Feb-23 19:23:45 - ERROR - 5 - Error al recibir nombre_carpeta y lista nombres imagenes: ajuste_formato() missing 1 required positional argument: 'fd'
+13-Feb-23 19:23:45 - INFO - 5 - coleccion foto_prueba/ ya existe
+13-Feb-23 19:23:45 - INFO - 5 - fin
+13-Feb-23 19:23:52 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:23:56 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:24:00 - INFO - 5 - Conexión desde ('127.0.0.1', 58740)
+13-Feb-23 19:24:00 - ERROR - 5 - Error al recibir nombre_carpeta y lista nombres imagenes: ajuste_formato() missing 1 required positional argument: 'fd'
+13-Feb-23 19:24:00 - INFO - 5 - coleccion foto_prueba ya existe
+13-Feb-23 19:24:00 - INFO - 5 - fin
+13-Feb-23 19:28:31 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:28:32 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:28:35 - INFO - 5 - Conexión desde ('127.0.0.1', 43812)
+13-Feb-23 19:28:35 - ERROR - 5 - Error al recibir nombre_carpeta y lista nombres imagenes: ajuste_formato() missing 1 required positional argument: 'fd'
+13-Feb-23 19:28:35 - INFO - 5 - coleccion foto_prueba ya existe
+13-Feb-23 19:28:35 - INFO - 5 - fin
+13-Feb-23 19:32:43 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:33:55 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:33:58 - INFO - 5 - Conexión desde ('127.0.0.1', 36750)
+13-Feb-23 19:33:58 - ERROR - 5 - Error al recibir nombre_carpeta y lista nombres imagenes: ajuste_formato() missing 1 required positional argument: 'fd'
+13-Feb-23 19:33:58 - INFO - 5 - coleccion foto_prueba ya existe
+13-Feb-23 19:33:58 - INFO - 5 - fin
+13-Feb-23 19:34:35 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:34:38 - INFO - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:34:41 - INFO - Conexión desde ('127.0.0.1', 56894)
+13-Feb-23 19:34:41 - INFO - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:34:41 - INFO - coleccion foto_prueba ya existe
+13-Feb-23 19:34:41 - INFO - rostro_random.jpg
+13-Feb-23 19:34:41 - INFO - imagen rostro_random.jpg ya existe
+13-Feb-23 19:34:41 - INFO - fin
+13-Feb-23 19:35:51 - INFO - Programa interrumpido por el usuario
+13-Feb-23 19:35:53 - INFO - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:35:56 - INFO - Conexión desde ('127.0.0.1', 49786)
+13-Feb-23 19:35:56 - INFO - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:35:56 - INFO - coleccion foto_prueba ya existe
+13-Feb-23 19:35:56 - INFO - rostro_random.jpg
+13-Feb-23 19:35:56 - INFO - imagen rostro_random.jpg ya existe
+13-Feb-23 19:35:56 - INFO - fin
+13-Feb-23 19:36:12 - INFO - Programa interrumpido por el usuario
+13-Feb-23 19:39:32 - INFO - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:39:36 - INFO - Conexión desde ('127.0.0.1', 41012)
+13-Feb-23 19:39:36 - INFO - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:39:36 - INFO - coleccion foto_prueba ya existe
+13-Feb-23 19:39:36 - INFO - rostro_random.jpg
+13-Feb-23 19:39:36 - INFO - imagen rostro_random.jpg ya existe
+13-Feb-23 19:39:36 - INFO - fin
+13-Feb-23 19:39:51 - INFO - Programa interrumpido por el usuario
+13-Feb-23 19:41:36 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:41:38 - INFO - 5 - Conexión desde ('127.0.0.1', 32790)
+13-Feb-23 19:41:38 - INFO - 5 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:41:38 - INFO - 5 - coleccion foto_prueba ya existe
+13-Feb-23 19:41:38 - INFO - 5 - rostro_random.jpg
+13-Feb-23 19:41:38 - INFO - 5 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:41:38 - INFO - 5 - fin
+13-Feb-23 19:41:47 - INFO - 5 - Conexión desde ('127.0.0.1', 52030)
+13-Feb-23 19:41:47 - INFO - 5 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:41:47 - INFO - 5 - coleccion foto_prueba ya existe
+13-Feb-23 19:41:47 - INFO - 5 - rostro_random.jpg
+13-Feb-23 19:41:47 - INFO - 5 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:41:47 - INFO - 5 - fin
+13-Feb-23 19:43:12 - INFO - 5 - Conexión desde ('127.0.0.1', 36308)
+13-Feb-23 19:43:12 - INFO - 5 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:43:12 - INFO - 5 - coleccion foto_prueba ya existe
+13-Feb-23 19:43:12 - INFO - 5 - rostro_random.jpg
+13-Feb-23 19:43:12 - INFO - 5 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:43:12 - INFO - 5 - fin
+13-Feb-23 19:43:37 - INFO - 5 - Conexión desde ('127.0.0.1', 52446)
+13-Feb-23 19:43:37 - INFO - 5 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:43:37 - INFO - 5 - coleccion foto_prueba ya existe
+13-Feb-23 19:43:37 - INFO - 5 - rostro_random.jpg
+13-Feb-23 19:43:37 - INFO - 5 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:43:37 - INFO - 5 - fin
+13-Feb-23 19:43:50 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:43:55 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:43:59 - INFO - 5 - Conexión desde ('127.0.0.1', 33194)
+13-Feb-23 19:43:59 - INFO - 5 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:43:59 - INFO - 5 - coleccion foto_prueba ya existe
+13-Feb-23 19:43:59 - INFO - 5 - rostro_random.jpg
+13-Feb-23 19:43:59 - INFO - 5 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:43:59 - INFO - 5 - fin
+13-Feb-23 19:44:02 - INFO - 5 - Conexión desde ('127.0.0.1', 38182)
+13-Feb-23 19:44:02 - INFO - 5 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:44:02 - INFO - 5 - coleccion foto_prueba ya existe
+13-Feb-23 19:44:02 - INFO - 5 - rostro_random.jpg
+13-Feb-23 19:44:02 - INFO - 5 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:44:02 - INFO - 5 - fin
+13-Feb-23 19:52:01 - INFO - 5 - Programa interrumpido por el usuario
+13-Feb-23 19:52:11 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:52:18 - INFO - e9176b68-619f-4ce8-8c9e-dc12ecf5ae73 - Conexión desde ('127.0.0.1', 48598)
+13-Feb-23 19:52:18 - INFO - e9176b68-619f-4ce8-8c9e-dc12ecf5ae73 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:52:18 - INFO - e9176b68-619f-4ce8-8c9e-dc12ecf5ae73 - coleccion foto_prueba ya existe
+13-Feb-23 19:52:18 - INFO - e9176b68-619f-4ce8-8c9e-dc12ecf5ae73 - rostro_random.jpg
+13-Feb-23 19:52:18 - INFO - e9176b68-619f-4ce8-8c9e-dc12ecf5ae73 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:52:18 - INFO - e9176b68-619f-4ce8-8c9e-dc12ecf5ae73 - fin
+13-Feb-23 19:52:23 - INFO - 7da28b09-efbd-40bc-8589-0b83eb06359b - Conexión desde ('127.0.0.1', 43826)
+13-Feb-23 19:52:23 - INFO - 7da28b09-efbd-40bc-8589-0b83eb06359b - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:52:23 - INFO - 7da28b09-efbd-40bc-8589-0b83eb06359b - coleccion foto_prueba ya existe
+13-Feb-23 19:52:23 - INFO - 7da28b09-efbd-40bc-8589-0b83eb06359b - rostro_random.jpg
+13-Feb-23 19:52:23 - INFO - 7da28b09-efbd-40bc-8589-0b83eb06359b - imagen rostro_random.jpg ya existe
+13-Feb-23 19:52:23 - INFO - 7da28b09-efbd-40bc-8589-0b83eb06359b - fin
+13-Feb-23 19:52:35 - INFO - 7da28b09-efbd-40bc-8589-0b83eb06359b - Programa interrumpido por el usuario
+13-Feb-23 19:52:38 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:52:41 - INFO - 5dd34cb1-3b15-455d-8f9c-30dfeceea270 - Conexión desde ('127.0.0.1', 52758)
+13-Feb-23 19:52:41 - INFO - 5dd34cb1-3b15-455d-8f9c-30dfeceea270 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:52:41 - INFO - 5dd34cb1-3b15-455d-8f9c-30dfeceea270 - coleccion foto_prueba ya existe
+13-Feb-23 19:52:41 - INFO - 5dd34cb1-3b15-455d-8f9c-30dfeceea270 - rostro_random.jpg
+13-Feb-23 19:52:41 - INFO - 5dd34cb1-3b15-455d-8f9c-30dfeceea270 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:52:41 - INFO - 5dd34cb1-3b15-455d-8f9c-30dfeceea270 - fin
+13-Feb-23 19:52:43 - INFO - 75f92513-a1b1-4bd8-9143-f00283ff5916 - Conexión desde ('127.0.0.1', 52768)
+13-Feb-23 19:52:43 - INFO - 75f92513-a1b1-4bd8-9143-f00283ff5916 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:52:43 - INFO - 75f92513-a1b1-4bd8-9143-f00283ff5916 - coleccion foto_prueba ya existe
+13-Feb-23 19:52:43 - INFO - 75f92513-a1b1-4bd8-9143-f00283ff5916 - rostro_random.jpg
+13-Feb-23 19:52:43 - INFO - 75f92513-a1b1-4bd8-9143-f00283ff5916 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:52:43 - INFO - 75f92513-a1b1-4bd8-9143-f00283ff5916 - fin
+13-Feb-23 19:54:27 - INFO - 75f92513-a1b1-4bd8-9143-f00283ff5916 - Programa interrumpido por el usuario
+13-Feb-23 19:54:30 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+13-Feb-23 19:54:34 - INFO - e8d3fabf-bc83-4d54-a32a-faba90941338 - Conexión desde ('127.0.0.1', 54064)
+13-Feb-23 19:54:35 - INFO - e8d3fabf-bc83-4d54-a32a-faba90941338 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:54:35 - INFO - e8d3fabf-bc83-4d54-a32a-faba90941338 - coleccion foto_prueba ya existe
+13-Feb-23 19:54:35 - INFO - e8d3fabf-bc83-4d54-a32a-faba90941338 - rostro_random.jpg
+13-Feb-23 19:54:35 - INFO - e8d3fabf-bc83-4d54-a32a-faba90941338 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:54:35 - INFO - e8d3fabf-bc83-4d54-a32a-faba90941338 - fin
+13-Feb-23 19:54:40 - INFO - b9f65f7e-f194-46fb-8e68-e4f22baf0c10 - Conexión desde ('127.0.0.1', 54066)
+13-Feb-23 19:54:40 - INFO - b9f65f7e-f194-46fb-8e68-e4f22baf0c10 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:54:40 - INFO - b9f65f7e-f194-46fb-8e68-e4f22baf0c10 - coleccion foto_prueba ya existe
+13-Feb-23 19:54:40 - INFO - b9f65f7e-f194-46fb-8e68-e4f22baf0c10 - rostro_random.jpg
+13-Feb-23 19:54:40 - INFO - b9f65f7e-f194-46fb-8e68-e4f22baf0c10 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:54:40 - INFO - b9f65f7e-f194-46fb-8e68-e4f22baf0c10 - fin
+13-Feb-23 19:54:46 - INFO - 71e1d432-be4e-4e68-9233-c8eb3acfe805 - Conexión desde ('127.0.0.1', 56430)
+13-Feb-23 19:54:46 - INFO - 71e1d432-be4e-4e68-9233-c8eb3acfe805 - binario de imagen: rostro_random.jpg recibida
+13-Feb-23 19:54:46 - INFO - 71e1d432-be4e-4e68-9233-c8eb3acfe805 - coleccion foto_prueba ya existe
+13-Feb-23 19:54:46 - INFO - 71e1d432-be4e-4e68-9233-c8eb3acfe805 - rostro_random.jpg
+13-Feb-23 19:54:46 - INFO - 71e1d432-be4e-4e68-9233-c8eb3acfe805 - imagen rostro_random.jpg ya existe
+13-Feb-23 19:54:46 - INFO - 71e1d432-be4e-4e68-9233-c8eb3acfe805 - fin

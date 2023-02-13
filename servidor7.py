@@ -29,7 +29,7 @@ async def guardar_imagenes_sino_existe(nombre_carpeta, objetos_imagenes):
                 respuestas.append(f"imagen {objeto_imagen['nombre']} ya existe")
         return respuestas
     except pymongo.errors.WriteError as e:
-        respuestas.append(f"Error al insertar la imagen '{objeto_imagen['nombre']}': {e}")
+        print(f"Error al insertar la imagen '{objeto_imagen['nombre']}': {e}")
     except pymongo.errors.ConnectionFailure as e:
         print(f"Error de conexión con MongoDB: {str(e)}")
     except pymongo.errors.OperationFailure as e:
