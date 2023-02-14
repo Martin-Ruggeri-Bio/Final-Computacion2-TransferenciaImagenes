@@ -2,38 +2,33 @@ import base64
 from io import BytesIO
 import socket
 import pickle
-import zlib
 import pymongo
 from celery import Celery
 import argparse
-from PIL import Image, ImageOps
+from PIL import ImageOps
+import numpy as np
 
 app = Celery('tasks', broker='redis://localhost', backend='redis://localhost:6379')
 
 
 @app.task
-def crear_coleccion_sino_existe(nombre_carpeta):
+def guardar_imagenes_sino_existe(nombre_carpeta, objetos_imagenes):
     cliente_mongo = pymongo.MongoClient("mongodb://root:root@localhost:27017/")
     db = cliente_mongo.BancoImagenes
-    coleccion = db[nombre_carpeta]
-    coleccion.drop()
     if nombre_carpeta not in db.list_collection_names():
         db.create_collection(nombre_carpeta)
         print(f"coleccion {nombre_carpeta} creada")
     else:
         print(f"coleccion {nombre_carpeta} ya existe")
-
-@app.task
-def guardar_imagenes_sino_existe(nombre_carpeta, objetos_imagenes):
-    cliente_mongo = pymongo.MongoClient("mongodb://root:root@localhost:27017/")
-    db = cliente_mongo.BancoImagenes
     coleccion = db[nombre_carpeta]
+    respuestas = []
     for objeto_imagen in objetos_imagenes:
-        if coleccion.find_one(objeto_imagen) is None:
+        if coleccion.find_one({'nombre': objeto_imagen['nombre']}) is None:
             coleccion.insert_one(objeto_imagen)
-            print(f"imagen {objeto_imagen.keys()} insertada")
+            respuestas.append(f"imagen {objeto_imagen['nombre']} insertada")
         else:
-            print(f"imagen {objeto_imagen.keys()} ya existe")
+            respuestas.append(f"imagen {objeto_imagen['nombre']} ya existe")
+    return respuestas
 
 @app.task
 def recibir_imagenes(lista_nombres_imagenes, cliente):
@@ -56,16 +51,21 @@ def recibir_imagenes(lista_nombres_imagenes, cliente):
 @app.task
 def ajuste_formato(nombre_imagen, imagen_bin):
     imagen = pickle.loads(imagen_bin)
-    # imagen_descomprimida = zlib.decompress(imagen_bin)
-    # imagen = Image.open(imagen_descomprimida)
     imagen_ajustada = imagen.resize((80, 90))
     imagen_grayscale = ImageOps.grayscale(imagen_ajustada)
+    buffered = BytesIO()
+    imagen_grayscale.save(buffered, format="JPEG")
+    # Convertir la imagen a una matriz numpy
+    np_image = np.array(imagen_grayscale)
+    # Aplanar la matriz numpy y convertirla en una lista de Python
+    img = np_image.flatten().tolist()
+    vector = [img[i]/1000 for i in range(0, len(img))]
     buffered = BytesIO()
     imagen_grayscale.save(buffered, format="JPEG")
     imagen_formateada = buffered.getvalue()
     img_base64 = base64.b64encode(imagen_formateada)
     img_str = img_base64.decode("utf-8")
-    objeto_imagen = {nombre_imagen: img_str}
+    objeto_imagen = {"nombre": nombre_imagen, "imagen_str": img_str, "vector": vector}
     return objeto_imagen
 
 @app.task
@@ -83,13 +83,15 @@ def recibir_nombre_carpeta_y_lista_nombres_imagenes(cliente):
 @app.task
 def recibir_datos(cliente):
     nombre_carpeta, lista_nombres_imagenes = recibir_nombre_carpeta_y_lista_nombres_imagenes(cliente)
-    # Ejecutar tarea de creación de colección
-    crear_coleccion_sino_existe(nombre_carpeta)
     imagenes_con_nombre = recibir_imagenes(lista_nombres_imagenes, cliente)
     # Enviar respuesta al cliente
     cliente.sendall(b"Todas las imagen recibidas, descomprimidas y nombradas")
     # Ejecutar tarea de guardado de imágenes
-    guardar_imagenes_sino_existe(nombre_carpeta, imagenes_con_nombre)
+    respuestas = guardar_imagenes_sino_existe(nombre_carpeta, imagenes_con_nombre)
+    for objeto_imagen in imagenes_con_nombre:
+        print(objeto_imagen['nombre'])
+    for respuesta in respuestas:
+        print(respuesta)
     print("fin")
     # Cerrar conexión
     cliente.close()

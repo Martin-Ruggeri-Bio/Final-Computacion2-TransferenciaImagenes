@@ -190,3 +190,17 @@ INFO:root:Programa interrumpido por el usuario
 13-Feb-23 19:54:46 - INFO - 71e1d432-be4e-4e68-9233-c8eb3acfe805 - rostro_random.jpg
 13-Feb-23 19:54:46 - INFO - 71e1d432-be4e-4e68-9233-c8eb3acfe805 - imagen rostro_random.jpg ya existe
 13-Feb-23 19:54:46 - INFO - 71e1d432-be4e-4e68-9233-c8eb3acfe805 - fin
+14-Feb-23 00:33:12 - INFO - 0 - Servidor iniciado en IP 0.0.0.0, puerto 1234
+14-Feb-23 00:33:21 - INFO - eb9c79e1-9bf4-4f7a-8ee8-9a0fa2a3d40e - Conexión desde ('127.0.0.1', 55592)
+14-Feb-23 00:33:21 - INFO - eb9c79e1-9bf4-4f7a-8ee8-9a0fa2a3d40e - binario de imagen: rostro_random.jpg recibida
+14-Feb-23 00:33:22 - INFO - eb9c79e1-9bf4-4f7a-8ee8-9a0fa2a3d40e - coleccion foto_prueba ya existe
+14-Feb-23 00:33:22 - INFO - eb9c79e1-9bf4-4f7a-8ee8-9a0fa2a3d40e - rostro_random.jpg
+14-Feb-23 00:33:22 - INFO - eb9c79e1-9bf4-4f7a-8ee8-9a0fa2a3d40e - imagen rostro_random.jpg ya existe
+14-Feb-23 00:33:22 - INFO - eb9c79e1-9bf4-4f7a-8ee8-9a0fa2a3d40e - fin
+14-Feb-23 00:33:49 - INFO - a6a43b69-bc12-43df-9b23-539fcf1b5c27 - Conexión desde ('127.0.0.1', 48634)
+14-Feb-23 00:33:49 - INFO - a6a43b69-bc12-43df-9b23-539fcf1b5c27 - binario de imagen: rostro_random.jpg recibida
+14-Feb-23 00:33:49 - INFO - a6a43b69-bc12-43df-9b23-539fcf1b5c27 - coleccion foto_prueba ya existe
+14-Feb-23 00:33:49 - INFO - a6a43b69-bc12-43df-9b23-539fcf1b5c27 - rostro_random.jpg
+14-Feb-23 00:33:49 - INFO - a6a43b69-bc12-43df-9b23-539fcf1b5c27 - imagen rostro_random.jpg ya existe
+14-Feb-23 00:33:49 - INFO - a6a43b69-bc12-43df-9b23-539fcf1b5c27 - fin
+14-Feb-23 00:33:54 - INFO - a6a43b69-bc12-43df-9b23-539fcf1b5c27 - Programa interrumpido por el usuario
